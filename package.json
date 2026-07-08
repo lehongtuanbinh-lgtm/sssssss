@@ -1,0 +1,19 @@
+{
+  "name": "sunwin-tx-predictor",
+  "version": "1.0.0",
+  "description": "Thu thập dữ liệu & dự đoán Tài Xỉu Sunwin dựa trên nhận diện cầu và phân tích điểm",
+  "main": "sunphhuy.js",
+  "scripts": {
+    "start": "node sunphhuy.js",
+    "dev": "node --watch sunphhuy.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["sunwin", "tài xỉu", "predictor", "collector"],
+  "author": "sunphhuy",
+  "license": "MIT"
+}
